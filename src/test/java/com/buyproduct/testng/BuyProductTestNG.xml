@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Buy Product" verbose="4"  parallel = "classes" thread-count="5">
+	
+    <test name="Product Purchase">
+        <classes>
+            <class name="com.buyproduct.runners.BuyProductRunner"/>
+        </classes>
+    </test>
+</suite>
